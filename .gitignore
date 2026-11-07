@@ -1,0 +1,10 @@
+# Excel and Power BI temporary files
+~$*
+*.tmp
+
+# CSV exports made from the workbook (recreate with Save As CSV UTF-8)
+data/raw/*.csv
+
+# Working files that are not part of the release
+*_before_*.pbix
+*_backup.json
